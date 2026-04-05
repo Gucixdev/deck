@@ -1,0 +1,21 @@
+CLAUDE.md
+mods/
+
+# Credentials
+env/steam.env
+
+# Generowane / lokalne dane
+games.info
+build/
+
+# Shader cache (lokalne, nie commituj)
+*.dxvk-cache
+build/protondb_cache/
+
+# Backupy
+*.tar.zst
+
+# Lokalne ścieżki/dane usera
+games.conf
+env/hosts.conf
+env/ps4games.conf

@@ -1,0 +1,15 @@
+# ps4games.conf — lista PS4 gier dla shadPS4
+# Skopiuj do ps4games.conf: cp env/ps4games.conf.example env/ps4games.conf
+#
+# Format: CUSA_ID:Nazwa:/sciezka/do/gry
+#
+# Jak zrzucić gry z PS4:
+#   1. PS4 z custom firmware (GoldHEN)
+#   2. Dump przez FTP: homebrew dumper
+#   3. Struktura katalogu: CUSA00001/sce_sys/param.sfo + eboot.bin
+#
+# CUSA00900:Bloodborne:/home/user/PS4Games/CUSA00900
+# CUSA03173:Dark Souls Remastered:/home/user/PS4Games/CUSA03173
+# CUSA00411:The Last of Us Remastered:/home/user/PS4Games/CUSA00411
+# CUSA07719:God of War:/home/user/PS4Games/CUSA07719
+# CUSA09193:Red Dead Redemption 2:/home/user/PS4Games/CUSA09193

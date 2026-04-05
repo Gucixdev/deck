@@ -1,0 +1,26 @@
+# games.conf — lista gier i profili Proton
+# Skopiuj do games.conf i uzupełnij: cp games.conf.example games.conf
+#
+# Format:  AppID:Nazwa:profil
+# Profile: vanilla | mod | online
+#
+# vanilla — max wydajność, brak ograniczeń
+# mod     — kompatybilność z modami, bez EAC/BattlEye
+# online  — EAC + BattlEye compat, PROTON_IPV6=0
+#
+# Profil jest auto-sugerowany przez fetchgames na podstawie ProtonDB.
+# Możesz go zmienić ręcznie w każdej chwili.
+#
+# ── Przykłady ────────────────────────────────────────────────────────────────
+# 1091500:Cyberpunk 2077:vanilla
+# 1245620:Elden Ring:vanilla
+# 1174180:Red Dead Redemption 2:vanilla
+# 730:CS2:online
+# 1172470:Apex Legends:online
+# 1085660:Destiny 2:online
+# 377160:Fallout 4:mod
+# 489830:The Elder Scrolls V- Skyrim Special Edition:mod
+# 292030:The Witcher 3- Wild Hunt:vanilla
+# 374320:Dark Souls III:vanilla
+# 4800:Heroes of Annihilated Empires:mod
+# 223470:POSTAL 2:mod
